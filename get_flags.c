@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * get_flags - calculate the active flags
+ * get_flags - calculate the active flags if _printf finds them
  * @format: formatted string
+ * @s: holds theflag specifier
+ * @f:pointer to struct flags
  * @i: parameter
  * Return: flags
+ * Authors:Simon Nganga & Esther Wambui
  */
 int get_flags(const char *format, int *i)
 {
