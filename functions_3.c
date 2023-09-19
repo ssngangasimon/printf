@@ -10,6 +10,7 @@
  * @precision: precision specification
  * @size: size specifier
  * Return: the number of characters printed
+ * Author: Simon Nganga & Esther Wambui
  */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -55,13 +56,13 @@ int print_pointer(va_list types, char buffer[],
 /*************Print Non printable********************/
 /**
  * print_non_printable - print ascii codes in hexa of non printable chars
- * @types: a list of arguments
+ * @types: list of arguments
  * @buffer: Buffer array to handle print
  * @flags:  calculates active flags
  * @width: get width
  * @precision: precision specification
  * @size: size specifier
- * Return: the number of characters printed
+ * Return: Number of characters printed
  */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -95,7 +96,7 @@ int print_non_printable(va_list types, char buffer[],
 /*****************Print Reverse********************/
 /**
  * print_reverse - print the reverse string
- * @types: a list of arguments
+ * @types: list of arguments
  * @buffer: Buffer array to handle print
  * @flags:  calculate the active flags
  * @width: get width
