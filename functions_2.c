@@ -9,7 +9,8 @@
  * @width: get width
  * @precision: precision specification
  * @size: size specifier
- * Return: the number of printed characters
+ * Return: the number of printed chars
+ * Author: Simon Nganga & Esther Wambui
  */
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -104,7 +105,7 @@ int print_hexadecimal(va_list types, char buffer[],
  * @width: get width
  * @precision: precision specification
  * @size: size specifier
- * Return: the number of characters printed
+ * Return: the number of chars printed
  */
 int print_hexa_upper(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -125,7 +126,7 @@ int print_hexa_upper(va_list types, char buffer[],
  * @precision: precision specification
  * @size: size specifier
  * @size: size specification
- * Return: the number of chars printed
+ * Return: the number of characters printed
  */
 int print_hexa(va_list types, char map_to[], char buffer[],
 	int flags, char flag_ch, int width, int precision, int size)
