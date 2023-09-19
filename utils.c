@@ -5,6 +5,7 @@
  * @c: char
  *
  * Return: 1 if c is printable, 0 otherwise
+ * Author:Esther Wambui & Simon Nganga
  */
 int is_printable(char c)
 {
@@ -39,7 +40,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
 
 /**
  * is_digit - Verifies if a char is a digit
- * @c: Char to be evaluated
+ * @c: Character to be evaluated
  *
  * Return: 1 if c is a digit, 0 otherwise
  */
