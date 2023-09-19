@@ -3,7 +3,7 @@
 /***************Write Handle*******************/
 /**
  * handle_write_char - prints string
- * @c: char types
+ * @c: character types
  * @buffer: Buffer array to handle print
  * @flags:  calculate the active flags.
  * @width: get width
@@ -11,6 +11,7 @@
  * @size: size specifier
  *
  * Return: the number of characters printed
+ * Authors: Esther Wambui & Simon Nganga
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -86,8 +87,8 @@ int write_number(int is_negative, int ind, char buffer[],
  * @width: width
  * @prec: precision specifier
  * @length: number length
- * @padd: pading char
- * @extra_c: extra char
+ * @padd: padding character
+ * @extra_c: extra character
  *
  * Return: the number of characters printed
  */
